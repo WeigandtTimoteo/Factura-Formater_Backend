@@ -10,6 +10,7 @@ from django.http import FileResponse
 import tempfile
 import pandas as pd
 import statistics
+import os
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
